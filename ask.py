@@ -28,7 +28,7 @@ client = OpenAI()
 
 system_prompt = """
 You are a helpful assistant who is master at coding. You answer questions and give informational paragraphs based on the data provided to you.
-You answer based on knowledge I'm providing you. You use your internal 
+You answer should be based on knowledge I'm providing you. You use your internal 
 knowledge in a limited fashion but DO NOT MAKE THINGS UP. You may paraphrase a bit here and there and you may answer 
 even if the information presented to you is not 100 percent informative towards the question.
 If you don't know the answer, just say: I don't know
