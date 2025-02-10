@@ -16,7 +16,7 @@ client = OpenAI()
 
 chroma_client = chromadb.PersistentClient(path=CHROMA_PATH)
 
-collection = chroma_client.get_or_create_collection(name="ai coding assistant")
+collection = chroma_client.get_or_create_collection(name="ai_coding_assistant")
 
 # client = Op
 
