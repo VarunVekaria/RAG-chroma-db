@@ -63,7 +63,7 @@ This project is an AI-powered coding assistant and knowledge base designed to en
 2. **Input your coding question** when prompted, and the assistant will provide an answer based on the stored knowledge.
 
 ## Project Structure
-
+NOTE : Populate the data folder with relevant files that you want to summarise before running fill_db.py
 - [fill_db.py](http://_vscodecontentref_/3): Script to summarize Python code functions and store them in ChromaDB.
 - [ask.py](http://_vscodecontentref_/4): Script to interact with the AI-powered coding assistant.
 - [data](http://_vscodecontentref_/5): Directory containing Python scripts to be summarized.
